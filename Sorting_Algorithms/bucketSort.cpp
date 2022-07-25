@@ -3,7 +3,9 @@
 #include <algorithm>
 using namespace std;
 
-/*void Radix_Sort(double arr[], int size) {
+//	RADIX SORT
+
+void Radix_Sort(double arr[], int size) {
     queue<double> q[10];
     int d = 3;
     int j;
@@ -23,7 +25,8 @@ using namespace std;
         p = p * 10;
     }
 }
-*/
+
+//	BUCKET
 void BucketSort(float arr[], int n)
 {
 	queue<float> b[5]; //create bucket
