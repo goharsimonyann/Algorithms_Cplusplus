@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 using namespace std;
 //InserionSort
 struct node
@@ -71,4 +71,4 @@ int main()
 	print(p);
 	system("pause");
 	return 0;
-}*/
+}
